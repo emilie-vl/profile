@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #12131b;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 20px;
+  text-align : center;
+}
+
+h1 {
+  font-family: "Sour Gummy", sans-serif;
+  color: #146782;
+  font-size :24px;
+  line-height: 36px;
+}
+
+h2 {
+  font-family: "Sour Gummy", sans-serif;
+  color: #123648;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: underline;
+  color: #123648;
+}
+a:visited {
+  color:#146782;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #1da2c9;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0
+}
+
+#profile-pic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#social-networks a {
+  text-decoration: none;
+}
+
+
+.card {
+  background-color : f7ede2;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0px 10px 30px #cee3e2 ;
+  margin: 25px auto;
+  padding : 15px;
+  width: 350px;
+}
+
+.card i:before{
+  font-size: 25px ;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
